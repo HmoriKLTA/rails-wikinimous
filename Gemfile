@@ -62,3 +62,8 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+# CUSTOM GEMS
+gem 'faker'
+gem 'ostruct'
+gem "simple_form"

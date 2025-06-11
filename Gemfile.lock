@@ -105,6 +105,8 @@ GEM
       reline (>= 0.3.8)
     drb (2.2.1)
     erubi (1.13.1)
+    faker (3.5.1)
+      i18n (>= 1.8.11, < 2)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.7)
@@ -162,6 +164,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.18.8-x86_64-linux-musl)
       racc (~> 1.4)
+    ostruct (0.6.1)
     pp (0.6.2)
       prettyprint
     prettyprint (0.2.0)
@@ -224,6 +227,9 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    simple_form (5.3.1)
+      actionpack (>= 5.2)
+      activemodel (>= 5.2)
     sprockets (4.2.2)
       concurrent-ruby (~> 1.0)
       logger
@@ -279,11 +285,14 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  faker
   importmap-rails
   jbuilder
+  ostruct
   puma (>= 5.0)
   rails (~> 7.1.5, >= 7.1.5.1)
   selenium-webdriver
+  simple_form
   sprockets-rails
   sqlite3 (>= 1.4)
   stimulus-rails
